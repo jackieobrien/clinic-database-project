@@ -3,10 +3,10 @@
 
 For my final project in CS 2500: Introduction to Database Systems at the Unversity of Vermont, I created an interface application to interact with records from a fictional doctor’s office, which I named Burlington Health Center, using the sqlite3 and matplotlib functions in Python. I created my dataset with Python; this code is located in database.py, and the finished database is detailed in clinicData.db. It consists of four tables: 
 
-* Patient, having information on the patients the office provides care for
-* Provider, holding identification and contact information of providers employed by the practice
-* Appointment, containing the patient seen, provider seeing them, and the patient's diagnosis
-* Bill, outlining the patient seen and the amount owed
+* Patient: information on the patients the office provides care for
+* Provider: identification and contact information of providers employed by the practice
+* Appointment: the patient seen, provider seeing them, and the patient's diagnosis
+* Bill: the patient seen and the amount owed
 
 I used the datetime and random packages in Python to generate random integers for rows when needed, such as dates of birth and phone numbers. I also used ChatGPT to generate the names of providers and patients, and the patients’ street addresses.
 
